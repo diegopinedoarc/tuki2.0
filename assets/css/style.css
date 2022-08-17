@@ -342,6 +342,10 @@
     border-radius: 50%;
     box-shadow: 1px 1px 1px 1px var(--azul);
   }
+  .lupaicon:hover {
+    background: var(--azul);
+    color: var(--blanco);
+  }
   .errores {
     background: red;
     color: aliceblue;
@@ -992,6 +996,7 @@
     border-radius: 50%;
     box-shadow: 1px 1px 1px 1px var(--azul);
   }
+
   .errores {
     background: red;
     color: aliceblue;
