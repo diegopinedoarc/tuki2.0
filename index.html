@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        <img src="./assets/images/logoS.png" alt="insertLogo" class="logo" />
+      </div>
+      <div class="hamburger">
+        <div class="_layer -top"></div>
+        <div class="_layer -mid"></div>
+        <div class="_layer -bottom"></div>
+      </div>
+      <nav class="menuppal">
+        <ul>
+          <li><a href="#catalogo">Catálogo</a></li>
+          <li><a href="#">Contacto</a></li>
+          <li>
+            <a class="linkNav" href="#carrito"
+              ><i class="fa-solid fa-cart-shopping"></i
+              ><span id="totalItems"></span
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero">
+      <h2>¿Hambriento?</h2>
+      <p class="hero__info">¡Pizzas para disfrutar los 365 dias del año!</p>
+      <a href="#catalogo"><button class="hero__btn">¡Date el gusto!</button></a>
+    </section>
+    <section class="catalogo" id="catalogo">
+      <h2>Nuestras variedades</h2>
+      <div class="catalogo__pizzasNames">
+        <!-- <p class="pizzaName">Napolitana</p>
+        <p class="pizzaName">Napolitana</p>
+        <p class="pizzaName">Napolitana</p>
+        <p class="pizzaName">Napolitana</p>
+        <p class="pizzaName">Napolitana</p>
+        <p class="pizzaName">Napolitana</p>
+        <p class="pizzaName">Napolitana</p> -->
+      </div>
+      <div class="searchContainer">
+        <div class="search">
+          <h3>Ingresa el nombre de tu eleccion para ver sus caracteristicas</h3>
+          <div class="lupa">
+            <div class="lupaicon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            <input id="buscador" type="text" placeholder="Nombre" />
+          </div>
+        </div>
+        <div class="result">
+          <h3 class="result__title">Tu seleccion:</h3>
+          <!-- <div class="pizzaBox">
+            <h3 class="nombre">Napolitana</h3>
+            <span class="cerrar" id="cerrar">X</span>
+            <p class="ingredientes">
+              Ingredientes: Lorem, ipsum dolor sit amet consectetur adipisicing
+              elit. Optio, quidem!
+            </p>
+            <div class="priceIMG">
+              <img
+                class="fotoPizza"
+                src="./assets/images/napolitana.jpg"
+                alt="fotoPizza"
+              />
+              <h3 class="precio">$1800</h3>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+    <script src="./assets/scripts/main.js"></script>
+  </body>
+</html>
